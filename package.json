@@ -1,0 +1,44 @@
+{
+  "name": "locklink",
+  "version": "1.0.0",
+  "description": "A secure communication library using ECDH for key exchange, AES-GCM for encryption, and HMAC-SHA-256 for integrity checks.",
+  "main": "dist/index.js",
+  "type": "module",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "encryption",
+    "ecdsa",
+    "aes",
+    "gcm",
+    "hmac",
+    "security",
+    "communication"
+  ],
+  "author": "Parham M. Asghari",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ParhamMoAsghari/locklink.git"
+  },
+  "homepage": "https://github.com/ParhamMoAsghari/locklink#readme",
+  "bugs": {
+    "url": "https://github.com/ParhamMoAsghari/locklink/issues"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.10.2",
+    "eslint": "^9.17.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^28.0.8",
+    "ts-node": "^10.9.2",
+    "typescript": "^4.4.4"
+  },
+  "peerDependencies": {
+    "node": ">=12.0.0"
+  }
+}

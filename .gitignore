@@ -1,0 +1,40 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# TypeScript
+dist/
+*.tsbuildinfo
+
+# Jest
+coverage/
+jest-*.json
+*.test.ts.snap
+
+# Environment Files
+.env
+.env.local
+.env.*.local
+
+# IDEs and Editors
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Optional: If you want to exclude the build directory (if using Docker or a similar system)
+build/
+
+# Optional: If you want to exclude any temporary files or other build artifacts
+*.bak
+*.tmp
+
+.idea
