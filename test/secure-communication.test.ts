@@ -1,5 +1,5 @@
-import { SecureCommunication } from "../src/secure-communication";
-import { AESGCMEncryption } from "../src/encryption/AESGCMEncryption";
+import { SecureCommunication } from "../src";
+import { AESGCMEncryption } from "../src";
 
 describe("SecureCommunication", () => {
     let secureComm: SecureCommunication;
